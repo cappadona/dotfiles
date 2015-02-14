@@ -49,3 +49,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # rbenv init
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# nvm setup
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
