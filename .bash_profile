@@ -53,6 +53,3 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # nvm setup
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
-
-# thefuck
-eval "$(thefuck --alias)"
