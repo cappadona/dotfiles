@@ -76,6 +76,12 @@
 		fi \
 	}; f"
 
+	# Old faithful - single line, abbreviated SHA & color
+	logger = log --oneline --decorate
+
+	# View log with history graph & author date
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
@@ -99,6 +105,9 @@
 	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
+
+	# Sublime Text as default editor
+	editor = subl -w
 
 [color]
 
