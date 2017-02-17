@@ -168,3 +168,6 @@ eval "$(thefuck --alias)"
 # Use locally installed package - akin to `bundle exec` for ruby
 # http://stackoverflow.com/a/15157360
 alias npm-exec='PATH=$(npm bin):$PATH'
+
+# hub - git sugar
+eval "$(hub alias -s)"
