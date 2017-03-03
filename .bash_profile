@@ -53,3 +53,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # nvm setup
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# openssl via homebrew
+export PATH="/usr/local/opt/openssl/bin:$PATH"
