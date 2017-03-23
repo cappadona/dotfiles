@@ -14,6 +14,10 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Open installers downloaded via brew cask but not yet run
+open /usr/local/Caskroom/adobe-creative-cloud/latest
+open /usr/local/Caskroom/little-snitch
+
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
