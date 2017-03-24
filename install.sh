@@ -30,6 +30,10 @@ brew cleanup
 # Remove app installers
 brew cask cleanup
 
+# Add login items
+loginitems -a "Bartender 2"
+loginitems -a SlimBatteryMonitor
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos

@@ -52,6 +52,11 @@ brew 'thefuck'
 brew 'tree'
 brew 'wget'
 
+# Manage login items from terminal
+# https://github.com/OJFord/loginitems#loginitems
+tap 'OJFord/formulae'
+brew 'loginitems'
+
 # Development
 # brew 'apr'
 # brew 'apr-util'
