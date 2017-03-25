@@ -293,7 +293,10 @@ defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnab
 ###############################################################################
 
 # Hide Spotlight tray-icon (and subsequent helper)
-sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
+# -- Punt for now; this is difficult due to SIP introduced in El Capitan (10.11)
+# -- https://github.com/mathiasbynens/dotfiles/issues/587
+# -- https://www.macbartender.com/B2/system-item-setup
+# sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 
 # Disable Spotlight indexing for any volume that gets mounted and has not yet
 # been indexed before.
