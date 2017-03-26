@@ -15,7 +15,7 @@ brew 'findutils'
 
 # Bash 4
 brew 'bash'
-brew 'bash-completion'
+brew 'bash-completion@2'
 
 # Install more recent versions of some macOS tools
 brew 'homebrew/dupes/grep'
