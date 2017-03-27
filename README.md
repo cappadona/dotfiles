@@ -1,3 +1,5 @@
+> For setting up a new Mac, see [INSTALL notes](INSTALL.md). What follows is the general documentation from upstream.
+
 # Mathias’s dotfiles
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
