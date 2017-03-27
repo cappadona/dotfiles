@@ -124,8 +124,8 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 
-	# Sublime Text as default editor
-	editor = subl -w
+	# Atom as default editor
+	editor = atom -w
 
 [color]
 
