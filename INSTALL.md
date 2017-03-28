@@ -8,16 +8,10 @@
 
 1. Install macOS Command Line Tools
    ```sh
-    $ xcode-select --install
+   $ xcode-select --install
    ```
 
 1. Copy public and private SSH keys to `~/.ssh` and make sure they're set to 600
-
-1. Add the private keys and passphrases to Keychain
-   ```sh
-    $ ssh-add ~/.ssh/<privateKey>
-   ```
-   > list existing identities already in Keychain via `$ ssh-add -l`
 
 1. Add `~/.extra` from secret gist
 
@@ -39,7 +33,7 @@
 
 1. Copy dotfiles to home directory
    ```sh
-    $ source bootstrap.sh
+   $ source bootstrap.sh
    ```
 
 1. Make sure Dropbox is set up and synced
@@ -47,7 +41,7 @@
 
 1. Restore preferences via Mackup
    ```sh
-    $ mackup restore
+   $ mackup restore
    ```
 
 1. Restart computer to finalize the process
