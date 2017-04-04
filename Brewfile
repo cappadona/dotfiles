@@ -148,5 +148,6 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 
 # Mac App Store
+mas 'Magnet', id: 441258766
 mas 'Pixelmator', id: 407963104
 mas 'Radium', id: 597611879
