@@ -4,6 +4,7 @@ tap 'caskroom/fonts'
 # tap 'homebrew/apache'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
+tap 'homebrew/drivers'
 # tap 'homebrew/php'
 # tap 'homebrew/services'
 
