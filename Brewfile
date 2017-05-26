@@ -41,6 +41,7 @@ cask 'java'
 # Binaries
 brew 'asciinema'
 brew 'awscli'
+brew 'awsebcli'
 brew 'bfg'
 brew 'filebeat'
 brew 'ghi'
