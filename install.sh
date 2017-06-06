@@ -16,7 +16,6 @@ brew bundle
 
 # Open installers downloaded via brew cask but not yet run
 open /usr/local/Caskroom/adobe-creative-cloud/latest
-open /usr/local/Caskroom/backblaze/latest
 open /usr/local/Caskroom/little-snitch
 open /usr/local/Caskroom/oversight
 
