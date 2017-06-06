@@ -6,7 +6,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/dupes'
 tap 'homebrew/drivers'
 # tap 'homebrew/php'
-# tap 'homebrew/services'
+tap 'homebrew/services'
 
 # GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -66,7 +66,8 @@ brew 'loginitems'
 # brew 'openssl'
 # brew 'sqlite'
 # brew 'dnsmasq', restart_service: true
-# brew 'mongodb', restart_service: true
+brew 'mongodb', restart_service: true
+brew 'mariadb', restart_service: true
 # brew 'mysql', restart_service: true
 # brew 'homebrew/apache/httpd22', args: ['with-mpm-event']
 # brew 'homebrew/apache/mod_fastcgi', args: ['with-homebrew-httpd22']
@@ -114,7 +115,7 @@ cask 'postbox'
 cask 'postman'
 cask 'rescuetime'
 # cask 'robomongo'
-# cask 'sequel-pro'
+cask 'sequel-pro'
 cask 'simplenote'
 cask 'sip'
 cask 'sketch'
