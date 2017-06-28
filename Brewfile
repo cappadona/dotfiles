@@ -133,13 +133,17 @@ cask 'tunnelbear'
 cask 'zoomus'
 
 # Fonts
-cask 'font-awesome-terminal-fonts'
 cask 'font-fira-sans'
-cask 'font-fontawesome'
 cask 'font-montserrat'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
 cask 'font-roboto-slab'
+
+# -- icons
+cask 'font-awesome-terminal-fonts'
+cask 'font-fontawesome'
+cask 'font-ionicons'
+cask 'font-material-icons'
 
 # -- mono
 cask 'font-anonymous-pro'
