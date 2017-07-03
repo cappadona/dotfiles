@@ -4,9 +4,7 @@
 
 1. Clean install (or update) of latest macOS via App Store
 
-1. Install Xcode from the App Store, open it and accept the license agreement
-
-1. Install macOS Command Line Tools
+1. Install macOS Xcode Command Line Tools
    ```sh
    $ xcode-select --install
    ```
@@ -19,8 +17,11 @@
 
 1. Symlink `~/Desktop/dotfiles` to `~/dotfiles`
 
-1. Run install.sh to start the installation
-   > watch out for [bug with cask for gpgtools](https://github.com/caskroom/homebrew-cask/issues/29297); needed to kill the process to proceed
+1. Start the installation
+   ```sh
+   $ cd ~/dotfiles
+   $ ./install.sh
+   ```
 
 1. Run installers downloaded by Homebrew Cask
    > will be revealed in Finder
@@ -42,6 +43,18 @@
 1. Restore preferences via Mackup
    ```sh
    $ mackup restore
+   ```
+
+1. Create Dropbox symlinks
+   ```sh
+   $ ln -s ~/Dropbox/sites /usr/local/sites
+   $ ln -s ~/Dropbox/src /usr/local/src
+   ```
+
+1. Drop temp clone of this repo and symlink to Dropbox clone
+   ```sh
+   $ rm -rf ~/Desktop/dotfiles
+   $ ln -s /usr/local/src/dotfiles ~/dotfiles
    ```
 
 1. Restart computer to finalize the process
