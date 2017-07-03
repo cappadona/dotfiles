@@ -34,6 +34,7 @@ brew cask cleanup
 # Add login items
 loginitems -a "Bartender 2"
 loginitems -a Flux
+loginitems -a Magnet
 loginitems -a SlimBatteryMonitor
 
 # Set macOS preferences
