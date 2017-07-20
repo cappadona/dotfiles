@@ -65,7 +65,7 @@ brew 'loginitems'
 # brew 'apr'
 # brew 'apr-util'
 # brew 'openssl'
-# brew 'sqlite'
+brew 'sqlite'
 # brew 'dnsmasq', restart_service: true
 brew 'mongodb', restart_service: true
 brew 'mariadb', restart_service: true
@@ -125,7 +125,7 @@ cask 'skype'
 cask 'slack'
 cask 'slimbatterymonitor' # old faithful -- alternative: 'coconutbattery'
 cask 'soulver'
-# cask 'sqlitebrowser'
+cask 'sqlitebrowser'
 # cask 'sublime-text' # atom or bust
 cask 'superduper'
 cask 'tower'
