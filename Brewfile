@@ -138,6 +138,7 @@ cask 'zoomus'
 
 # Fonts
 cask 'font-fira-sans'
+cask 'font-inter-ui'
 cask 'font-montserrat'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
