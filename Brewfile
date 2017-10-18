@@ -170,3 +170,4 @@ cask 'font-source-sans-pro'
 mas 'Magnet', id: 441258766
 mas 'Pixelmator', id: 407963104
 mas 'Radium', id: 597611879
+mas 'ShotBox', id: 1278619270
