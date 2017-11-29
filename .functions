@@ -198,12 +198,12 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
-# Open a bundled gem in Sublime Text
+# Open a bundled gem in Atom
 # -- hat tip to John Otander: http://johnotander.com/zsh/2014/03/05/open-bundled-gem-in-sublime-text/
 function bs() {
   local gempath=$(bundle show $1)
 	if [[ $gempath != "Could not locate Gemfile" ]]; then
-		subl ${gempath};
+		atom ${gempath};
 	else
 		echo ${gempath};
 	fi;

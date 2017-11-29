@@ -131,7 +131,6 @@ cask 'slack'
 cask 'slimbatterymonitor' # old faithful -- alternative: 'coconutbattery'
 cask 'soulver'
 cask 'sqlitebrowser'
-# cask 'sublime-text' # atom or bust
 cask 'superduper'
 cask 'tower'
 cask 'transmit'
