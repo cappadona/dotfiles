@@ -96,6 +96,7 @@ cask 'docker'
 cask 'dropbox'
 cask 'fantastical'
 cask 'firefox'
+cask 'firefoxdeveloperedition'
 cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
 cask 'gitter'
