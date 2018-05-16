@@ -150,6 +150,9 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
+# Homebrew vim for vi
+alias vi=/usr/local/bin/vim
+
 # thefuck
 eval "$(thefuck --alias)"
 

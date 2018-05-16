@@ -19,6 +19,9 @@ brew 'findutils'
 brew 'bash'
 brew 'bash-completion@2'
 
+# Latest Vim (Apple ships outdated)
+brew 'vim'
+
 # Install more recent versions of some macOS tools
 brew 'homebrew/dupes/grep'
 brew 'homebrew/dupes/openssh'
