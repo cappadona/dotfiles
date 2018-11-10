@@ -39,6 +39,9 @@ brew 'yarn'
 brew 'ruby-build'
 brew 'rbenv'
 
+# Go
+brew 'go'
+
 # Java - a necessary evil
 cask 'java'
 

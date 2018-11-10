@@ -56,3 +56,8 @@ source $(brew --prefix nvm)/nvm.sh
 
 # openssl via homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# golang via homebrew
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
