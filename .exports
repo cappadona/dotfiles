@@ -32,3 +32,10 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
+
+# Configure nvm
+export NVM_DIR=~/.nvm
+
+# Golang via homebrew
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/.go

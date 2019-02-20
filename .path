@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Openssl via homebrew
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Golang via homebrew
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
