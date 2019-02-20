@@ -4,7 +4,7 @@ export PATH="$HOME/bin:$PATH";
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
+for file in ~/.{exports,path,bash_prompt,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
@@ -47,17 +47,8 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
-# rbenv init
+# Initialize rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# nvm setup
-export NVM_DIR=~/.nvm
+# Load nvm
 source $(brew --prefix nvm)/nvm.sh
-
-# openssl via homebrew
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-# golang via homebrew
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/.go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
