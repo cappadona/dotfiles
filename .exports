@@ -39,3 +39,7 @@ export NVM_DIR=~/.nvm
 # Golang via homebrew
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
+
+# No thanks, homebrew -- please dom't cleanup after me
+# https://brew.sh/2019/02/02/homebrew-2.0.0
+export HOMEBREW_NO_INSTALL_CLEANUP=1
