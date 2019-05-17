@@ -127,8 +127,8 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 
-	# Atom as default editor
-    editor = atom -w
+	# VS Code as default editor
+    editor = code -w
 
     # Speed up commands involving untracked files such as `git status`.
 	# https://git-scm.com/docs/git-update-index#_untracked_cache
