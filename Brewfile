@@ -103,7 +103,7 @@ cask 'docker'
 cask 'dropbox'
 cask 'fantastical'
 cask 'firefox'
-cask 'firefoxdeveloperedition'
+cask 'homebrew/cask-versions/firefox-developer-edition'
 cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
 cask 'gitter'
