@@ -114,6 +114,7 @@ cask 'ibackupbot'
 cask 'ifilex'
 cask 'imageoptim'
 cask 'kaleidoscope'
+cask 'kap' # screen recorder
 cask 'keybase'
 cask 'little-snitch'
 cask 'logitech-options'
