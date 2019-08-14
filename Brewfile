@@ -147,18 +147,22 @@ cask 'zoomus'
 
 # Fonts
 cask 'font-fira-sans'
+cask 'font-francois-one'
 cask 'font-inter-ui'
 cask 'font-lato'
 cask 'font-montserrat'
+cask 'font-quattrocento'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
 cask 'font-roboto-slab'
+cask 'font-satisfy'
 
 # -- icons
 cask 'font-awesome-terminal-fonts'
 cask 'font-fontawesome'
 cask 'font-ionicons'
 cask 'font-material-icons'
+cask 'font-ubuntu'
 
 # -- mono
 cask 'font-anonymous-pro'
