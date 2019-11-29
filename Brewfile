@@ -114,6 +114,7 @@ cask 'hyper'
 cask 'ibackupbot'
 cask 'ifilex'
 cask 'imageoptim'
+cask 'insomnia' # rest client
 cask 'kaleidoscope'
 cask 'kap' # screen recorder
 cask 'keybase'
