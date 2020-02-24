@@ -189,6 +189,7 @@ cask 'font-source-sans-pro'
 
 # Mac App Store
 mas 'Billings Pro', id: 434514810
+mas 'Dato', id: 1470584107
 mas 'Magnet', id: 441258766
 mas 'Pixelmator Pro', id: 1289583905
 mas 'ShotBox', id: 1278619270
