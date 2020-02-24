@@ -191,6 +191,7 @@ cask 'font-source-sans-pro'
 mas 'Billings Pro', id: 434514810
 mas 'Magnet', id: 441258766
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Radium', id: 597611879
 mas 'ShotBox', id: 1278619270
+mas 'SonicWeb', id: 660638272
 mas 'Todoist', id: 585829637
+mas 'Triode', id: 1450027401
