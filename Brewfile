@@ -156,7 +156,7 @@ cask 'zoomus'
 # Fonts
 cask 'font-fira-sans'
 cask 'font-francois-one'
-cask 'font-inter-ui'
+cask 'font-inter'
 cask 'font-lato'
 cask 'font-montserrat'
 cask 'font-quattrocento'
