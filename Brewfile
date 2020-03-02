@@ -106,6 +106,7 @@ cask 'dropbox'
 cask 'fantastical'
 cask 'firefox'
 cask 'homebrew/cask-versions/firefox-developer-edition'
+cask 'fission'
 cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
 cask 'gitter'
