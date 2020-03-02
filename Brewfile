@@ -42,8 +42,8 @@ brew 'rbenv'
 # Go
 brew 'go'
 
-# Java - a necessary evil
-cask 'java'
+# Java - a necessary evil -- but at least now open & free
+cask 'adoptopenjdk'
 
 # Binaries
 brew 'asciinema'
