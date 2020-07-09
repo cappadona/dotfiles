@@ -125,6 +125,7 @@ cask 'ibackupbot'
 cask 'ifilex'
 cask 'imageoptim'
 cask 'insomnia' # rest client
+cask 'insomnia-designer' # collaborative api design editor
 cask 'kaleidoscope'
 cask 'kap' # screen recorder
 cask 'keybase'
