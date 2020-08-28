@@ -8,6 +8,7 @@ tap 'elastic/tap'
 tap 'homebrew/bundle'
 # tap 'homebrew/php'
 tap 'homebrew/services'
+tap 'mongodb/brew'
 
 # GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -85,7 +86,7 @@ brew 'loginitems'
 # brew 'openssl'
 brew 'sqlite'
 # brew 'dnsmasq', restart_service: true
-brew 'mongodb', restart_service: true
+brew 'mongodb-community', restart_service: true
 brew 'mariadb', restart_service: true
 # brew 'mysql', restart_service: true
 # brew 'homebrew/apache/httpd22', args: ['with-mpm-event']
