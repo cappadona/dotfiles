@@ -68,6 +68,7 @@ brew 'kubectx'
 brew 'mackup'
 brew 'mas'
 brew 'openconnect'
+brew 'openssl'
 brew 'sass/sass/sass'
 brew 'thefuck'
 brew 'tree'
@@ -78,10 +79,10 @@ brew 'wget'
 tap 'OJFord/formulae'
 brew 'loginitems'
 
-# Development
-brew 'openssl'
-brew 'sqlite'
+# DB
 brew 'mongodb-community', restart_service: true
+brew 'postgresql'
+brew 'sqlite'
 
 # Apps
 cask '1password'
