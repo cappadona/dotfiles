@@ -4,9 +4,7 @@ tap 'caskroom/drivers'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'elastic/tap'
-# tap 'homebrew/apache'
 tap 'homebrew/bundle'
-# tap 'homebrew/php'
 tap 'homebrew/services'
 tap 'mongodb/brew'
 
@@ -80,18 +78,9 @@ tap 'OJFord/formulae'
 brew 'loginitems'
 
 # Development
-# brew 'apr'
-# brew 'apr-util'
-# brew 'openssl'
+brew 'openssl'
 brew 'sqlite'
-# brew 'dnsmasq', restart_service: true
 brew 'mongodb-community', restart_service: true
-brew 'mariadb', restart_service: true
-# brew 'mysql', restart_service: true
-# brew 'homebrew/apache/httpd22', args: ['with-mpm-event']
-# brew 'homebrew/apache/mod_fastcgi', args: ['with-homebrew-httpd22']
-# brew 'homebrew/apache/mod_wsgi', args: ['with-homebrew-httpd22', 'with-homebrew-python']
-# brew 'homebrew/php/composer'
 
 # Apps
 cask '1password'
@@ -146,7 +135,6 @@ cask 'postico'
 cask 'protonmail-bridge'
 cask 'recordit'
 cask 'rescuetime'
-# cask 'robomongo'
 cask 'screens-connect'
 cask 'sequel-pro'
 cask 'simplenote'
