@@ -37,7 +37,6 @@ brew 'nvm'
 brew 'yarn'
 
 # Python
-brew 'pipenv'
 brew 'pipx'
 brew 'pyenv'
 brew 'pyenv-virtualenv'

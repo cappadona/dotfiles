@@ -5,3 +5,6 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # Golang via homebrew
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+# pipx via homebrew
+export PATH="$PATH:/Users/nick/.local/bin"

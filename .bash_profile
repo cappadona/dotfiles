@@ -51,5 +51,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 source $(brew --prefix nvm)/nvm.sh
 
 # Initialize pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
+
+# Tab completions for pipx
+eval "$(register-python-argcomplete pipx)"
