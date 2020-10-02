@@ -1,4 +1,5 @@
 # Taps
+tap 'beeftornado/rmtree'
 tap 'caskroom/cask'
 tap 'caskroom/drivers'
 tap 'caskroom/fonts'
