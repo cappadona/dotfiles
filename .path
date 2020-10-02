@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
+
 # Openssl via homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
