@@ -53,5 +53,8 @@ source $(brew --prefix nvm)/nvm.sh
 # Initialize pyenv
 if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
 
-# Tab completions for pipx
+# Tab completion for pipx
 eval "$(register-python-argcomplete pipx)"
+
+# Tab completion for serverless via tabtab
+[ -f ~/.config/tabtab/__tabtab.bash ] && . ~/.config/tabtab/__tabtab.bash || true
