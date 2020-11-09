@@ -61,6 +61,7 @@ brew 'fzf'
 brew 'ghi'
 brew 'git'
 brew 'git-lfs'
+brew 'gron' # grep json
 brew 'hub'
 brew 'imagemagick'
 brew 'jq'
