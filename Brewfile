@@ -15,10 +15,6 @@ brew 'coreutils'
 # GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
 
-# Bash 4
-brew 'bash'
-brew 'bash-completion@2'
-
 # Latest Vim (Apple ships outdated)
 brew 'vim'
 
