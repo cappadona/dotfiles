@@ -112,7 +112,7 @@ cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
 cask 'gitter'
 cask 'google-chrome'
-cask 'gpgtools'
+cask 'gpg-suite'
 cask 'hyper'
 cask 'ibackupbot'
 cask 'ifilex'
