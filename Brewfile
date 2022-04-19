@@ -7,7 +7,6 @@ tap 'caskroom/versions'
 tap 'elastic/tap'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-tap 'mongodb/brew'
 
 # GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -40,10 +39,6 @@ brew 'pipx'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
 
-# Ruby
-brew 'ruby-build'
-brew 'rbenv'
-
 # Go
 brew 'go'
 
@@ -56,7 +51,6 @@ brew 'awscli'
 brew 'awsebcli'
 brew 'awslogs'
 brew 'bfg'
-brew 'elastic/tap/filebeat-full'
 brew 'fzf'
 brew 'ghi'
 brew 'git'
@@ -82,13 +76,11 @@ tap 'OJFord/formulae'
 brew 'loginitems'
 
 # DB
-brew 'mongodb-community', restart_service: true
 brew 'postgresql'
 brew 'sqlite'
 
 # Apps
 cask '1password'
-cask 'adobe-creative-cloud'
 cask 'alfred'
 cask 'appzapper'
 cask 'audio-hijack'
@@ -97,20 +89,16 @@ cask 'bartender'
 cask 'boom'
 cask 'color-oracle'
 cask 'couleurs'
-cask 'crashplan'
 cask 'daisydisk'
 cask 'db-browser-for-sqlite'
 cask 'discord'
-cask 'divvy'
 cask 'docker'
-cask 'dropbox'
 cask 'fantastical'
 cask 'firefox'
 cask 'homebrew/cask-versions/firefox-developer-edition'
 cask 'fission'
 cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
-cask 'gitter'
 cask 'google-chrome'
 cask 'gpg-suite'
 cask 'hyper'
@@ -118,33 +106,23 @@ cask 'ibackupbot'
 cask 'ifilex'
 cask 'imageoptim'
 cask 'insomnia' # rest client
-cask 'insomnia-designer' # collaborative api design editor
 cask 'kaleidoscope'
 cask 'kap' # screen recorder
 cask 'keybase'
 cask 'little-snitch'
 cask 'logitech-options'
 cask 'mactracker'
-cask 'mailplane'
 cask 'masscode'
 cask 'notion'
 cask 'now'
-cask 'nvalt'
-cask 'omnigraffle'
-cask 'origami-studio'
-cask 'oversight'
 cask 'postbox'
-cask 'postman'
 cask 'postico'
 cask 'protonmail-bridge'
 cask 'recordit'
-cask 'rescuetime'
 cask 'screens-connect'
 cask 'sequel-pro'
 cask 'simplenote'
 cask 'sip'
-cask 'sketch'
-cask 'sketchpacks'
 cask 'skype'
 cask 'slack'
 cask 'slimbatterymonitor' # old faithful -- alternative: 'coconutbattery'
@@ -193,11 +171,9 @@ cask 'font-source-sans-pro'
 
 # Mac App Store
 mas 'Backdrop', id: 411461952
-mas 'Billings Pro', id: 434514810
 mas 'Dato', id: 1470584107
 mas 'Magnet', id: 441258766
 mas 'Pixelmator Pro', id: 1289583905
 mas 'ShotBox', id: 1278619270
-mas 'SonicWeb', id: 660638272
 mas 'Todoist', id: 585829637
 mas 'Triode', id: 1450027401
