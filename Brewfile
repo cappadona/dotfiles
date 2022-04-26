@@ -71,6 +71,7 @@ brew 'serverless'
 brew 'thefuck'
 brew 'tree'
 brew 'wget'
+brew 'yq'
 
 # Manage login items from terminal
 # https://github.com/OJFord/loginitems#loginitems
