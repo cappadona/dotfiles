@@ -176,6 +176,5 @@ mas 'Dato', id: 1470584107
 mas 'Magnet', id: 441258766
 mas 'Pixelmator Pro', id: 1289583905
 mas 'ShotBox', id: 1278619270
-mas 'Simplenote', 692867256
 mas 'Todoist', id: 585829637
 mas 'Triode', id: 1450027401
