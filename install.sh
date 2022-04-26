@@ -18,10 +18,9 @@ brew tap homebrew/bundle
 brew bundle
 
 # Open installers downloaded via brew cask but not yet run
-open /usr/local/Caskroom/adobe-creative-cloud/latest
-open /usr/local/Caskroom/backblaze/latest
+#open /usr/local/Caskroom/backblaze/latest
 open /usr/local/Caskroom/little-snitch
-open /usr/local/Caskroom/oversight
+#open /usr/local/Caskroom/oversight
 
 # Remove outdated versions from the cellar
 brew cleanup
