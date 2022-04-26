@@ -5,6 +5,7 @@ tap 'caskroom/drivers'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'elastic/tap'
+tap 'hashicorp/tap'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
@@ -79,6 +80,10 @@ brew 'loginitems'
 # DB
 brew 'postgresql'
 brew 'sqlite'
+
+# DevOps
+brew 'hashicorp/tap/terraform'
+brew 'hashicorp/tap/vault'
 
 # Apps
 cask '1password'
