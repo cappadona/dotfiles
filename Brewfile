@@ -57,6 +57,7 @@ brew 'gh'
 brew 'ghi'
 brew 'git'
 brew 'git-lfs'
+brew 'gnu-tar' # installed as 'gtar'
 brew 'gron' # grep json
 brew 'hub'
 brew 'imagemagick'
