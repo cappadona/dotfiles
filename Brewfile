@@ -104,6 +104,7 @@ cask 'fission'
 cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
 cask 'google-chrome'
+cask 'google-cloud-sdk'
 cask 'gpg-suite'
 cask 'hyper'
 cask 'ibackupbot'
