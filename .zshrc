@@ -6,6 +6,11 @@ for file in ~/.{exports,path,bash_prompt,aliases,functions,extra}; do
 done;
 unset file;
 
+# Load nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/nick/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
