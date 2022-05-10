@@ -6,6 +6,11 @@ for file in ~/.{exports,path,bash_prompt,aliases,functions,extra}; do
 done;
 unset file;
 
+# Initialize pure prompt
+fpath+=/opt/homebrew/share/zsh/site-functions
+autoload -U promptinit; promptinit
+prompt pure
+
 # Load nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
@@ -29,3 +34,7 @@ unset __conda_setup
 # gcloud cli
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc" # enable shell command completion
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc" # add Google Cloud SDK command line tools to $PATH
+
+# zsh syntax highlighting
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ 

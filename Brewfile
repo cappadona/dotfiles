@@ -26,6 +26,13 @@ brew 'homebrew/dupes/zlib'
 # Hombrew sugar
 brew 'brew-cask-completion'
 
+# zsh
+# could not get homebrew zsh to be used over system zsh :shrug:
+# -- https://stackoverflow.com/a/65568998
+# brew 'zsh'
+brew 'pure' # don't forget hyper theme https://github.com/sindresorhus/hyper-snazzy
+brew 'zsh-syntax-highlighting'
+
 # Node
 brew 'node'
 brew 'nvm'
