@@ -31,6 +31,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Initialize pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # gcloud cli
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc" # enable shell command completion
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc" # add Google Cloud SDK command line tools to $PATH
