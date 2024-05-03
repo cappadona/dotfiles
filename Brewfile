@@ -49,6 +49,7 @@ brew 'go'
 # Java - a necessary evil -- but at least now open & free
 cask 'adoptopenjdk'
 
+brew 'danielfoehrkn/switch/switch'
 # Binaries
 brew 'asciinema'
 brew 'awscli'
