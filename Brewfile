@@ -9,6 +9,12 @@ tap 'hashicorp/tap'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
+# dbt Cloud CLI
+# https://docs.getdbt.com/docs/cloud/cloud-cli-installation?install=brew
+# untap dbt-labs/dbt
+tap dbt-labs/dbt-cli
+brew 'dbt-labs/dbt-cli/dbt'
+
 # GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
 
