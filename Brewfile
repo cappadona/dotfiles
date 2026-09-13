@@ -157,6 +157,7 @@ cask 'kap' # screen recorder
 cask 'keybase'
 cask 'little-snitch'
 cask 'logitech-options'
+cask 'loom' # screen recorder
 cask 'mactracker'
 cask 'masscode'
 cask 'notion'
