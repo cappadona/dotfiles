@@ -35,6 +35,9 @@ sudo nvram SystemAudioVolume=" "
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
+# Adjust toolbar title rollover delay
+defaults write NSGlobalDomain NSToolbarTitleViewRolloverDelay -float 0
+
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
@@ -69,13 +72,6 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -boo
 # Disable guest access
 sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool false
 
-# Reveal IP address, hostname, OS version, etc. when clicking the clock
-# in the login window
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
-
-###############################################################################
-# Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
-###############################################################################
 
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
