@@ -161,6 +161,7 @@ cask 'loom' # screen recorder
 cask 'mactracker'
 cask 'masscode'
 cask 'mimestream' # email client
+cask 'monitorcontrol'
 cask 'notion'
 cask 'now'
 # cask 'postbox'
