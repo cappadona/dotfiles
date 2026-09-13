@@ -11,6 +11,7 @@ tap 'hashicorp/tap'
 tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
+tap 'oven-sh/bun'
 
 # dbt Cloud CLI
 # https://docs.getdbt.com/docs/cloud/cloud-cli-installation?install=brew
@@ -43,6 +44,7 @@ brew 'pure' # don't forget hyper theme https://github.com/sindresorhus/hyper-sna
 brew 'zsh-syntax-highlighting'
 
 # Node
+brew 'bun'
 brew 'node'
 brew 'nvm'
 brew 'yarn'
