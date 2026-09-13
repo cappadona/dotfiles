@@ -160,6 +160,7 @@ cask 'logitech-options'
 cask 'loom' # screen recorder
 cask 'mactracker'
 cask 'masscode'
+cask 'mimestream' # email client
 cask 'notion'
 cask 'now'
 # cask 'postbox'
