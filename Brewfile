@@ -84,6 +84,7 @@ brew 'asciinema'
 brew 'awscli'
 brew 'awsebcli'
 brew 'awslogs'
+brew 'aws-sam-cli' # build/test/deploy serverless
 brew 'bfg'
 brew 'cloc'
 brew 'csvkit'
