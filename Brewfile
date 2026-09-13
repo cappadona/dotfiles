@@ -184,6 +184,7 @@ cask 'transmit'
 cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'warp' # rust based terminal
+cask 'workflowy'
 cask 'zoomus'
 
 # Fonts
