@@ -128,6 +128,7 @@ cask '1password/tap/1password-cli'
 # Apps
 cask 'alfred'
 cask 'appzapper'
+cask 'arc' # another chromium based browser
 cask 'audio-hijack'
 cask 'backblaze'
 cask 'bartender'
