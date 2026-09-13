@@ -101,6 +101,7 @@ brew 'openssl'
 brew 'sass/sass/sass'
 brew 'serverless'
 brew 'svn' # needed for some of the font casks
+brew 'tflint'
 brew 'thefuck'
 brew 'tree'
 brew 'wget'
@@ -118,6 +119,7 @@ brew 'sqlite'
 # DevOps
 brew 'hashicorp/tap/terraform'
 brew 'hashicorp/tap/vault'
+brew 'tfenv'
 
 # Secrets management
 cask '1password'
