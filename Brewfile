@@ -79,11 +79,15 @@ brew 'saulpw/vd/visidata'
 brew 'snowcli'
 
 # Binaries
+brew 'act' # run GitHub Actions locally
 brew 'asciinema'
 brew 'awscli'
 brew 'awsebcli'
 brew 'awslogs'
 brew 'bfg'
+brew 'cloc'
+brew 'csvkit'
+brew 'diffoci'
 brew 'fzf'
 brew 'gh'
 brew 'ghi'
@@ -98,11 +102,15 @@ brew 'mackup'
 brew 'mas'
 brew 'openconnect'
 brew 'openssl'
+brew 'pre-commit'
+brew 'rclone' # Rsync for cloud storage
+brew 'rich' # fancy output in the terminal via python
 brew 'sass/sass/sass'
 brew 'serverless'
 brew 'svn' # needed for some of the font casks
 brew 'tflint'
 brew 'thefuck'
+brew 'tldr'
 brew 'tree'
 brew 'wget'
 brew 'yq'
