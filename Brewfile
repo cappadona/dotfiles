@@ -47,6 +47,7 @@ brew 'brew-cask-completion'
 brew 'pure' # don't forget hyper theme https://github.com/sindresorhus/hyper-snazzy
 brew 'zsh-syntax-highlighting'
 
+cask 'ghostty'
 # Node
 brew 'bun'
 brew 'node'
