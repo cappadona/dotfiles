@@ -1,4 +1,5 @@
 # Taps
+tap '1password/tap'
 tap 'beeftornado/rmtree'
 tap 'caskroom/cask'
 tap 'caskroom/drivers'
@@ -99,7 +100,11 @@ brew 'hashicorp/tap/terraform'
 brew 'hashicorp/tap/vault'
 
 # Apps
+# Secrets management
 cask '1password'
+cask '1password/tap/1password-cli'
+
+# Apps
 cask 'alfred'
 cask 'appzapper'
 cask 'audio-hijack'
