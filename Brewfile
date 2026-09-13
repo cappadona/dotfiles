@@ -12,6 +12,10 @@ tap 'homebrew/bundle'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
 tap 'oven-sh/bun'
+tap 'saulpw/vd'
+# tap 'sfc-gh-jhollan/snowcli'
+# tap 'snowflake-labs/snowcli'
+tap 'snowflakedb/snowflake-cli'
 
 # dbt Cloud CLI
 # https://docs.getdbt.com/docs/cloud/cloud-cli-installation?install=brew
@@ -68,6 +72,12 @@ brew 'kubectl'
 brew 'kubectx'
 brew 'popeye'
 brew 'danielfoehrkn/switch/switch'
+
+# Data
+brew 'duckdb'
+brew 'saulpw/vd/visidata'
+brew 'snowcli'
+
 # Binaries
 brew 'asciinema'
 brew 'awscli'
