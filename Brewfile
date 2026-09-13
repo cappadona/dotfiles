@@ -2,11 +2,11 @@
 tap 'beeftornado/rmtree'
 tap 'caskroom/cask'
 tap 'caskroom/drivers'
-tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'elastic/tap'
 tap 'hashicorp/tap'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
 
 # dbt Cloud CLI
@@ -79,6 +79,7 @@ brew 'openconnect'
 brew 'openssl'
 brew 'sass/sass/sass'
 brew 'serverless'
+brew 'svn' # needed for some of the font casks
 brew 'thefuck'
 brew 'tree'
 brew 'wget'
@@ -162,14 +163,14 @@ cask 'font-lato'
 cask 'font-montserrat'
 cask 'font-quattrocento'
 cask 'font-roboto'
-cask 'font-roboto-condensed'
+# cask 'font-roboto-condensed'
 cask 'font-roboto-slab'
 cask 'font-satisfy'
 
 # -- icons
 cask 'font-awesome-terminal-fonts'
 cask 'font-fontawesome'
-cask 'font-ionicons'
+# cask 'font-ionicons'
 cask 'font-material-icons'
 cask 'font-ubuntu'
 
