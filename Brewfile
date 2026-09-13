@@ -4,6 +4,7 @@ tap 'beeftornado/rmtree'
 tap 'caskroom/cask'
 tap 'caskroom/drivers'
 tap 'caskroom/versions'
+tap 'danielfoehrkn/switch'
 tap 'elastic/tap'
 tap 'hashicorp/tap'
 tap 'homebrew/bundle'
@@ -56,6 +57,13 @@ brew 'go'
 # Java - a necessary evil -- but at least now open & free
 cask 'adoptopenjdk'
 
+# Kubernetes (k8s)
+brew 'helm'
+brew 'k9s'
+brew 'kubecontext'
+brew 'kubectl'
+brew 'kubectx'
+brew 'popeye'
 brew 'danielfoehrkn/switch/switch'
 # Binaries
 brew 'asciinema'
@@ -73,7 +81,6 @@ brew 'gron' # grep json
 brew 'hub'
 brew 'imagemagick'
 brew 'jq'
-brew 'kubectx'
 brew 'mackup'
 brew 'mas'
 brew 'openconnect'
@@ -99,7 +106,6 @@ brew 'sqlite'
 brew 'hashicorp/tap/terraform'
 brew 'hashicorp/tap/vault'
 
-# Apps
 # Secrets management
 cask '1password'
 cask '1password/tap/1password-cli'
