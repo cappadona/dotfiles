@@ -47,7 +47,10 @@ brew 'brew-cask-completion'
 brew 'pure' # don't forget hyper theme https://github.com/sindresorhus/hyper-snazzy
 brew 'zsh-syntax-highlighting'
 
+# ai
+brew 'anomalyco/tap/opencode'
 cask 'ghostty'
+
 # Node
 brew 'bun'
 brew 'node'
@@ -200,6 +203,10 @@ cask 'visual-studio-code'
 cask 'warp' # rust based terminal
 cask 'workflowy'
 cask 'zoomus'
+
+# AI
+cask 'cursor' # fork of vscode
+cask 'claude-code'
 
 # Fonts
 cask 'font-fira-sans'
