@@ -99,6 +99,7 @@ brew 'git-lfs'
 brew 'gnu-tar' # installed as 'gtar'
 brew 'gron' # grep json
 brew 'hub'
+brew 'hunk' # diff viewer
 brew 'imagemagick'
 brew 'jq'
 brew 'lazygit' # git ui (cli)
