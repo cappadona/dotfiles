@@ -164,6 +164,7 @@ cask 'mimestream' # email client
 cask 'monitorcontrol'
 cask 'notion'
 cask 'now'
+cask 'obsidian'
 # cask 'postbox'
 cask 'postico'
 cask 'proton-mail-bridge'
