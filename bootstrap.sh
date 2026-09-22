@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-cd "$(dirname "${BASH_SOURCE}")";
+cd "$(dirname "${(%):-%x}")";
 
 git pull origin main;
 
@@ -12,15 +12,15 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
-	source ~/.bash_profile;
+	source ~/.zshrc;
 }
 
-if [ "$1" == "--force" -o "$1" == "-f" ]; then
+if [ "$1" = "--force" -o "$1" = "-f" ]; then
 	doIt;
 else
-	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
-	echo "";
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
+	echo -en "This may overwrite existing files in your home directory. Are you sure? (y/n) "
+	read -r yn
+	if [[ $yn =~ ^[Yy]$ ]]; then
 		doIt;
 	fi;
 fi;

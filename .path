@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Homebrew's sbin
 export PATH="/usr/local/sbin:$PATH"

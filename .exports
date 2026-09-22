@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Make vim the default editor.
 export EDITOR='vim';
@@ -13,7 +13,11 @@ export NODE_REPL_MODE='sloppy';
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
-# Increase Bash history size. Allow 32³ entries; the default is 500.
+# Prevent conda from activating the base environment by default
+# https://stackoverflow.com/a/57974390
+export CONDA_AUTO_ACTIVATE_BASE=false
+
+# Increase zsh history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
 # Omit duplicates and commands that begin with a space from history.
@@ -43,6 +47,3 @@ export GOPATH=$HOME/.go
 # No thanks, homebrew -- please dom't cleanup after me
 # https://brew.sh/2019/02/02/homebrew-2.0.0
 export HOMEBREW_NO_INSTALL_CLEANUP=1
-
-# Hide the “default interactive shell is now zsh” warning on macOS.
-export BASH_SILENCE_DEPRECATION_WARNING=1;

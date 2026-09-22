@@ -166,6 +166,10 @@
 	# Use `hexdump` to diff binary files.
 	textconv = hexdump -v -C
 
+[fetch]
+
+  prune = true
+
 [help]
 
 	# Automatically correct and execute mistyped commands.

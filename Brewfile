@@ -1,23 +1,33 @@
 # Taps
+tap '1password/tap'
 tap 'beeftornado/rmtree'
 tap 'caskroom/cask'
 tap 'caskroom/drivers'
-tap 'caskroom/fonts'
 tap 'caskroom/versions'
+tap 'danielfoehrkn/switch'
+tap 'dbt-labs/dbt'
 tap 'elastic/tap'
 tap 'hashicorp/tap'
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
+tap 'oven-sh/bun'
+tap 'saulpw/vd'
+# tap 'sfc-gh-jhollan/snowcli'
+# tap 'snowflake-labs/snowcli'
+tap 'snowflakedb/snowflake-cli'
+
+# dbt Cloud CLI
+# https://docs.getdbt.com/docs/cloud/cloud-cli-installation?install=brew
+# untap dbt-labs/dbt
+tap dbt-labs/dbt-cli
+brew 'dbt-labs/dbt-cli/dbt'
 
 # GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
 
 # GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
-
-# Bash 4
-brew 'bash'
-brew 'bash-completion@2'
 
 # Latest Vim (Apple ships outdated)
 brew 'vim'
@@ -30,7 +40,19 @@ brew 'homebrew/dupes/zlib'
 # Hombrew sugar
 brew 'brew-cask-completion'
 
+# zsh
+# could not get homebrew zsh to be used over system zsh :shrug:
+# -- https://stackoverflow.com/a/65568998
+# brew 'zsh'
+brew 'pure' # don't forget hyper theme https://github.com/sindresorhus/hyper-snazzy
+brew 'zsh-syntax-highlighting'
+
+# ai
+brew 'anomalyco/tap/opencode'
+cask 'ghostty'
+
 # Node
+brew 'bun'
 brew 'node'
 brew 'nvm'
 brew 'yarn'
@@ -46,30 +68,58 @@ brew 'go'
 # Java - a necessary evil -- but at least now open & free
 cask 'adoptopenjdk'
 
+# Kubernetes (k8s)
+brew 'helm'
+brew 'k9s'
+brew 'kubecontext'
+brew 'kubectl'
+brew 'kubectx'
+brew 'popeye'
+brew 'danielfoehrkn/switch/switch'
+
+# Data
+brew 'duckdb'
+brew 'saulpw/vd/visidata'
+brew 'snowcli'
+
 # Binaries
+brew 'act' # run GitHub Actions locally
 brew 'asciinema'
 brew 'awscli'
 brew 'awsebcli'
 brew 'awslogs'
+brew 'aws-sam-cli' # build/test/deploy serverless
+brew 'bat' # cat with wings
 brew 'bfg'
+brew 'cloc'
+brew 'csvkit'
+brew 'diffoci'
 brew 'fzf'
 brew 'gh'
 brew 'ghi'
 brew 'git'
+brew 'git-filter-repo'
 brew 'git-lfs'
 brew 'gnu-tar' # installed as 'gtar'
 brew 'gron' # grep json
 brew 'hub'
+brew 'hunk' # diff viewer
 brew 'imagemagick'
 brew 'jq'
-brew 'kubectx'
+brew 'lazygit' # git ui (cli)
 brew 'mackup'
 brew 'mas'
 brew 'openconnect'
 brew 'openssl'
+brew 'pre-commit'
+brew 'rclone' # Rsync for cloud storage
+brew 'rich' # fancy output in the terminal via python
 brew 'sass/sass/sass'
 brew 'serverless'
+brew 'svn' # needed for some of the font casks
+brew 'tflint'
 brew 'thefuck'
+brew 'tldr'
 brew 'tree'
 brew 'wget'
 brew 'yq'
@@ -86,21 +136,26 @@ brew 'sqlite'
 # DevOps
 brew 'hashicorp/tap/terraform'
 brew 'hashicorp/tap/vault'
+brew 'tfenv'
+
+# Secrets management
+cask '1password'
+cask '1password/tap/1password-cli'
 
 # Apps
-cask '1password'
 cask 'alfred'
 cask 'appzapper'
+cask 'arc' # another chromium based browser
 cask 'audio-hijack'
 cask 'backblaze'
 cask 'bartender'
 cask 'boom'
 cask 'color-oracle'
-cask 'couleurs'
 cask 'daisydisk'
 cask 'db-browser-for-sqlite'
 cask 'discord'
 cask 'docker'
+cask 'drawio'
 cask 'fantastical'
 cask 'firefox'
 cask 'homebrew/cask-versions/firefox-developer-edition'
@@ -108,9 +163,9 @@ cask 'fission'
 cask 'fliqlo' # flip-clock screensaver
 cask 'flux'
 cask 'google-chrome'
+cask 'google-cloud-sdk'
 cask 'gpg-suite'
 cask 'hyper'
-cask 'ibackupbot'
 cask 'ifilex'
 cask 'imageoptim'
 cask 'insomnia' # rest client
@@ -119,13 +174,17 @@ cask 'kap' # screen recorder
 cask 'keybase'
 cask 'little-snitch'
 cask 'logitech-options'
+cask 'loom' # screen recorder
 cask 'mactracker'
 cask 'masscode'
+cask 'mimestream' # email client
+cask 'monitorcontrol'
 cask 'notion'
 cask 'now'
-cask 'postbox'
+cask 'obsidian'
+# cask 'postbox'
 cask 'postico'
-cask 'protonmail-bridge'
+cask 'proton-mail-bridge'
 cask 'recordit'
 cask 'screens-connect'
 cask 'sequel-pro'
@@ -141,7 +200,13 @@ cask 'tower'
 cask 'transmit'
 cask 'tunnelbear'
 cask 'visual-studio-code'
+cask 'warp' # rust based terminal
+cask 'workflowy'
 cask 'zoomus'
+
+# AI
+cask 'cursor' # fork of vscode
+cask 'claude-code'
 
 # Fonts
 cask 'font-fira-sans'
@@ -151,14 +216,14 @@ cask 'font-lato'
 cask 'font-montserrat'
 cask 'font-quattrocento'
 cask 'font-roboto'
-cask 'font-roboto-condensed'
+# cask 'font-roboto-condensed'
 cask 'font-roboto-slab'
 cask 'font-satisfy'
 
 # -- icons
 cask 'font-awesome-terminal-fonts'
 cask 'font-fontawesome'
-cask 'font-ionicons'
+# cask 'font-ionicons'
 cask 'font-material-icons'
 cask 'font-ubuntu'
 

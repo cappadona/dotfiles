@@ -4,7 +4,10 @@ echo "Setting up your Mac..."
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Update Homebrew recipes
@@ -18,12 +21,6 @@ brew bundle
 #open /usr/local/Caskroom/backblaze/latest
 open /usr/local/Caskroom/little-snitch
 #open /usr/local/Caskroom/oversight
-
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
 
 # Remove outdated versions from the cellar
 brew cleanup
