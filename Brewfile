@@ -43,6 +43,7 @@ brew 'zsh-syntax-highlighting'
 # ai
 cask 'ghostty'
 brew 'anomalyco/tap/opencode-v2', trusted: true
+cask 'opencode-desktop'
 brew 'Kilo-Org/tap/kilo', trusted: true
 cask 'docker/tap/sbx', trusted: true # Docker sandboxes
 
