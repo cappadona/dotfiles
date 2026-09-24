@@ -1,5 +1,5 @@
 # Taps
-tap 'beeftornado/rmtree'
+tap 'beeftornado/rmtree', trusted: true
 # tap 'danielfoehrkn/switch'
 # tap 'dbt-labs/dbt'
 # tap 'elastic/tap'
@@ -41,10 +41,10 @@ brew 'pure' # don't forget to set snazzy ghostty theme (originally from https://
 brew 'zsh-syntax-highlighting'
 
 # ai
-brew 'anomalyco/tap/opencode-v2'
 cask 'ghostty'
-brew 'Kilo-Org/tap/kilo'
-brew 'docker/tap/sbx' # Docker sandboxes
+brew 'anomalyco/tap/opencode-v2', trusted: true
+brew 'Kilo-Org/tap/kilo', trusted: true
+cask 'docker/tap/sbx', trusted: true # Docker sandboxes
 
 # Node
 # brew 'bun'
@@ -120,7 +120,7 @@ brew 'yq'
 # Manage login items from terminal
 # https://github.com/OJFord/loginitems#loginitems
 # tap 'OJFord/formulae'
-brew 'OJFord/formulae/loginitems'
+brew 'OJFord/formulae/loginitems', trusted: true
 
 # DB
 # brew 'postgresql'
