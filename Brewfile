@@ -26,9 +26,9 @@ brew 'findutils'
 brew 'vim'
 
 # Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
-brew 'homebrew/dupes/openssh'
-brew 'homebrew/dupes/zlib'
+brew 'grep'
+brew 'openssh'
+brew 'zlib'
 
 # Hombrew sugar
 brew 'brew-cask-completion'
