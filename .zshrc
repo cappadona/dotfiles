@@ -37,11 +37,11 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # gcloud cli
-source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc" # enable shell command completion
-source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc" # add Google Cloud SDK command line tools to $PATH
+source "/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc" # enable shell command completion
+source "/opt/homebrew/share/google-cloud-sdk/path.zsh.inc" # add Google Cloud SDK command line tools to $PATH
 
 # initialize kubeswitch
-INSTALLATION_PATH=$(brew --prefix switch) && source $INSTALLATION_PATH/switch.sh
+#INSTALLATION_PATH=$(brew --prefix switch) && source $INSTALLATION_PATH/switch.sh
 
 # zsh syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

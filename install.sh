@@ -14,25 +14,15 @@ fi
 brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
 brew bundle
 
-# Open installers downloaded via brew cask but not yet run
-#open /usr/local/Caskroom/backblaze/latest
-open /usr/local/Caskroom/little-snitch
-#open /usr/local/Caskroom/oversight
-
-# Remove outdated versions from the cellar
+# Remove outdated versions & app installers from the cellar
 brew cleanup
 
-# Remove app installers
-brew cask cleanup
-
 # Add login items
-loginitems -a "Bartender 2"
-loginitems -a Flux
+# loginitems -a "Bartender 2"
 loginitems -a Magnet
-loginitems -a SlimBatteryMonitor
+loginitems -a Triode
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

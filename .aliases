@@ -151,14 +151,14 @@ alias path='echo -e ${PATH//:/\\n}'
 alias vi=/usr/local/bin/vim
 
 # thefuck
-eval "$(thefuck --alias)"
+#eval "$(thefuck --alias)"
 
 # Use locally installed package - akin to `bundle exec` for ruby
 # http://stackoverflow.com/a/15157360
 alias npm-exec='PATH=$(npm bin):$PATH'
 
 # hub - git sugar
-eval "$(hub alias -s)"
+#eval "$(hub alias -s)"
 
 # dbt-cloud
-alias dbt-cloud="$(brew --prefix dbt)/bin/dbt"
+#alias dbt-cloud="$(brew --prefix dbt)/bin/dbt"
