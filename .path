@@ -6,6 +6,9 @@ export PATH="/usr/local/sbin:$PATH"
 # Openssl via homebrew
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
+# omo via bun
+export PATH="$HOME/.bun/bin:$PATH"
+
 # poetry
 export PATH="$HOME/.poetry/bin:$PATH"
 

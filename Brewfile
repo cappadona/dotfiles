@@ -48,9 +48,9 @@ brew 'Kilo-Org/tap/kilo', trusted: true
 cask 'docker/tap/sbx', trusted: true # Docker sandboxes
 
 # Node
-# brew 'bun'
-# brew 'node'
-# brew 'nvm'
+brew 'bun'
+brew 'node'
+brew 'nvm'
 # brew 'yarn'
 
 # Python
