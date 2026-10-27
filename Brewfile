@@ -56,7 +56,7 @@ brew 'nvm'
 # Python
 # brew 'pipx'
 brew 'pyenv'
-# brew 'pyenv-virtualenv'
+brew 'pyenv-virtualenv'
 
 # Go
 # brew 'go'
